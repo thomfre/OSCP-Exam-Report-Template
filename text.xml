@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language name="text" version="9" kateversion="3.4" section="Markup" extensions="*.txt" mimetype="text/text" casesensitive="1" indenter="xml" author="thomfre" license="MIT">
+
+<highlighting>
+<contexts>
+  <context name="Start" attribute="Normal Text" lineEndContext="#stay">
+  </context>
+</contexts>
+<itemDatas>
+  <itemData name="Normal Text" defStyleNum="dsNormal" />
+  <itemData name="Other Text" defStyleNum="dsNormal" />
+</itemDatas>
+
+</highlighting>
+<general>
+</general>
+</language>

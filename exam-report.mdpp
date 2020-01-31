@@ -1,0 +1,40 @@
+---
+title: "Penetration Test Report"
+author: ["user@example.com", "OSID: OS-XXXXX"]
+date: "202x-xx-xx"
+subject: "OSCP Exam"
+keywords: [OSCP, Exam]
+subtitle: "OSCP Exam"
+lang: "en"
+titlepage: true
+titlepage-color: "DC143C"
+titlepage-text-color: "FFFAFA"
+titlepage-rule-color: "FFFAFA"
+titlepage-rule-height: 2
+book: true
+classoption: oneside
+code-block-font-size: \scriptsize
+---
+
+!INCLUDE "Exam/Parts/01-intro.md"
+
+\newpage
+
+!INCLUDE "Exam/Parts/02-high-level-summary.md"
+
+\newpage
+
+!INCLUDE "Exam/Parts/03-methodologies-part1.md"
+
+!INCLUDE "Exam/Parts/03-hosts.md", 2
+
+\newpage
+
+!INCLUDE "Exam/Parts/03-methodologies-part2.md"
+
+\newpage
+
+# Additional Items
+
+!INCLUDE "Exam/Parts/04-appendices.md"
+
