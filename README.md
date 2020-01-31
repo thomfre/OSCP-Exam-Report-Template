@@ -3,7 +3,7 @@
 [![GitHub Issues](https://img.shields.io/github/issues/thomfre/OSCP-Exam-Report-Template)](https://github.com/thomfre/OSCP-Exam-Report-Template/issues)
 [![Forks](https://img.shields.io/github/forks/thomfre/OSCP-Exam-Report-Template)](https://github.com/thomfre/OSCP-Exam-Report-Template/network/members)
 [![GitHub Stars](https://img.shields.io/github/stars/thomfre/OSCP-Exam-Report-Template)](https://github.com/thomfre/OSCP-Exam-Report-Template/stargazers)
-[![License](https://img.shields.io/github/license/thomfre/OSCP-Exam-Report-Template)](https://github.com/thomfre/OSCP-Exam-Report-Template/blob/master/LICENSE)
+[![License](https://img.shields.io/github/license/thomfre/OSCP-Exam-Report-Template?v=2)](https://github.com/thomfre/OSCP-Exam-Report-Template/blob/master/LICENSE)
 
 This is my OSCP exam notes template, based on the fine work by noraj in his [OSCP-Exam-Report-Template-Markdown](https://github.com/noraj/OSCP-Exam-Report-Template-Markdown) ([LICENSE](https://github.com/noraj/OSCP-Exam-Report-Template-Markdown/blob/master/LICENSE))
 
