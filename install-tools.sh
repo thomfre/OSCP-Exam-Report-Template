@@ -2,4 +2,4 @@
 
 pip3 install MarkdownPP
 apt install -y pandoc texlive-full
-cp eisvogel.tex /usr/share/pandoc/data/templates/eisvogel.latex
+wget https://raw.githubusercontent.com/Wandmalfarbe/pandoc-latex-template/master/eisvogel.tex -O /usr/share/pandoc/data/templates/eisvogel.latex
