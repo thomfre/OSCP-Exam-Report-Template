@@ -11,7 +11,7 @@ This allow fast and efficient note writing during both the labs and the exam.
 
 Instead of one huge report file, this template is based on several smaller markdown files, which are stitched together using MarkdownPP before generating the final report with Pandoc.
 
-The report text is the whoisflynn improved version of the official [PWK Example Report](https://www.offensive-security.com/pwk-online/PWK-Example-Report-v1.pdf).
+The report text is the [whoisflynn improved version](https://github.com/whoisflynn/OSCP-Exam-Report-Template) of the official [PWK Example Report](https://www.offensive-security.com/pwk-online/PWK-Example-Report-v1.pdf).
 
 ## Requirements
 
