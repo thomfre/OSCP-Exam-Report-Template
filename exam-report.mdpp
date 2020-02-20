@@ -14,6 +14,44 @@ titlepage-rule-height: 2
 book: true
 classoption: oneside
 code-block-font-size: \scriptsize
+header-includes:
+ - \usepackage{fvextra}
+ - \usepackage{fancyvrb}
+ - \DefineVerbatimEnvironment{Highlighting}{Verbatim}{breaklines=true, breakanywhere=true, fontsize=\scriptsize, numbers=left, commandchars=\\\{\}}
+ -  |
+    \AtBeginDocument{
+    \renewcommand{\AlertTok}[1]{\textcolor[rgb]{1.00,0.00,0.00}{\textbf{\FancyVerbBreakStart#1\FancyVerbBreakStop}}}
+    \renewcommand{\AnnotationTok}[1]{\textcolor[rgb]{0.38,0.63,0.69}{\textbf{\textit{\FancyVerbBreakStart#1\FancyVerbBreakStop}}}}
+    \renewcommand{\AttributeTok}[1]{\textcolor[rgb]{0.49,0.56,0.16}{\FancyVerbBreakStart#1\FancyVerbBreakStop}}
+    \renewcommand{\BaseNTok}[1]{\textcolor[rgb]{0.25,0.63,0.44}{\FancyVerbBreakStart#1\FancyVerbBreakStop}}
+    \renewcommand{\BuiltInTok}[1]{\FancyVerbBreakStart#1\FancyVerbBreakStop}
+    \renewcommand{\CharTok}[1]{\textcolor[rgb]{0.25,0.44,0.63}{\FancyVerbBreakStart#1\FancyVerbBreakStop}}
+    \renewcommand{\CommentTok}[1]{\textcolor[rgb]{0.38,0.63,0.69}{\textit{\FancyVerbBreakStart#1\FancyVerbBreakStop}}}
+    \renewcommand{\CommentVarTok}[1]{\textcolor[rgb]{0.38,0.63,0.69}{\textbf{\textit{\FancyVerbBreakStart#1\FancyVerbBreakStop}}}}
+    \renewcommand{\ConstantTok}[1]{\textcolor[rgb]{0.53,0.00,0.00}{\FancyVerbBreakStart#1\FancyVerbBreakStop}}
+    \renewcommand{\ControlFlowTok}[1]{\textcolor[rgb]{0.00,0.44,0.13}{\textbf{\FancyVerbBreakStart#1\FancyVerbBreakStop}}}
+    \renewcommand{\DataTypeTok}[1]{\textcolor[rgb]{0.56,0.13,0.00}{\FancyVerbBreakStart#1\FancyVerbBreakStop}}
+    \renewcommand{\DecValTok}[1]{\textcolor[rgb]{0.25,0.63,0.44}{\FancyVerbBreakStart#1\FancyVerbBreakStop}}
+    \renewcommand{\DocumentationTok}[1]{\textcolor[rgb]{0.73,0.13,0.13}{\textit{\FancyVerbBreakStart#1\FancyVerbBreakStop}}}
+    \renewcommand{\ErrorTok}[1]{\textcolor[rgb]{1.00,0.00,0.00}{\textbf{\FancyVerbBreakStart#1\FancyVerbBreakStop}}}
+    \renewcommand{\ExtensionTok}[1]{\FancyVerbBreakStart#1\FancyVerbBreakStop}
+    \renewcommand{\FloatTok}[1]{\textcolor[rgb]{0.25,0.63,0.44}{\FancyVerbBreakStart#1\FancyVerbBreakStop}}
+    \renewcommand{\FunctionTok}[1]{\textcolor[rgb]{0.02,0.16,0.49}{\FancyVerbBreakStart#1\FancyVerbBreakStop}}
+    \renewcommand{\ImportTok}[1]{\FancyVerbBreakStart#1\FancyVerbBreakStop}
+    \renewcommand{\InformationTok}[1]{\textcolor[rgb]{0.38,0.63,0.69}{\textbf{\textit{\FancyVerbBreakStart#1\FancyVerbBreakStop}}}}
+    \renewcommand{\KeywordTok}[1]{\textcolor[rgb]{0.00,0.44,0.13}{\textbf{\FancyVerbBreakStart#1\FancyVerbBreakStop}}}
+    \renewcommand{\NormalTok}[1]{\FancyVerbBreakStart#1\FancyVerbBreakStop}
+    \renewcommand{\OperatorTok}[1]{\textcolor[rgb]{0.40,0.40,0.40}{\FancyVerbBreakStart#1\FancyVerbBreakStop}}
+    \renewcommand{\OtherTok}[1]{\textcolor[rgb]{0.00,0.44,0.13}{\FancyVerbBreakStart#1\FancyVerbBreakStop}}
+    \renewcommand{\PreprocessorTok}[1]{\textcolor[rgb]{0.74,0.48,0.00}{\FancyVerbBreakStart#1\FancyVerbBreakStop}}
+    \renewcommand{\RegionMarkerTok}[1]{\FancyVerbBreakStart#1\FancyVerbBreakStop}
+    \renewcommand{\SpecialCharTok}[1]{\textcolor[rgb]{0.25,0.44,0.63}{\FancyVerbBreakStart#1\FancyVerbBreakStop}}
+    \renewcommand{\SpecialStringTok}[1]{\textcolor[rgb]{0.73,0.40,0.53}{\FancyVerbBreakStart#1\FancyVerbBreakStop}}
+    \renewcommand{\StringTok}[1]{\textcolor[rgb]{0.25,0.44,0.63}{\FancyVerbBreakStart#1\FancyVerbBreakStop}}
+    \renewcommand{\VariableTok}[1]{\textcolor[rgb]{0.10,0.09,0.49}{\FancyVerbBreakStart#1\FancyVerbBreakStop}}
+    \renewcommand{\VerbatimStringTok}[1]{\textcolor[rgb]{0.25,0.44,0.63}{\FancyVerbBreakStart#1\FancyVerbBreakStop}}
+    \renewcommand{\WarningTok}[1]{\textcolor[rgb]{0.38,0.63,0.69}{\textbf{\textit{\FancyVerbBreakStart#1\FancyVerbBreakStop}}}}
+    }
 ---
 
 !INCLUDE "Exam/Parts/01-intro.md"
