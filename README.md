@@ -23,7 +23,7 @@ The report text is the [whoisflynn improved version](https://github.com/whoisfly
 ## Usage
 
 1. Start with making a fork of this repository (or just copy the entire thing if you like). Make sure to make it private.
-2. Edit **generate-report.sh** and add your OS-ID to `OSID=""`.
+2. Edit **generate-package.sh** and add your OS-ID to `OSID=""`.
 3. Run **install-tools.sh** to install necessary tools and libraries (tested on ParrotOS), edit first if you don't want to install all of LaTeX.
 4. Edit the report.mdpp files and add your own information.
 5. Then simply write your report in **markdown**.
