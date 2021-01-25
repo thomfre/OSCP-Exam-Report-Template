@@ -47,7 +47,7 @@ markdown-pp $TEMPLATE_PATH -o $PREPROCESSED_PATH 1>/dev/null
 sed -i -E 's/```cmd/```bash/g' $PREPROCESSED_PATH 1>/dev/null
 
 echo -e "${BLUE}[*]${RESET} Creating PDF"
-pandoc $PREPROCESSED_PATH \
+pandoc -V block-headings -V urlcolor=blue $PREPROCESSED_PATH \
 -o $OUTPUT_PATH \
 --from markdown \
 --template eisvogel \
@@ -56,4 +56,5 @@ pandoc $PREPROCESSED_PATH \
 --number-sections \
 --top-level-division=chapter \
 --highlight-style tango \
---syntax-definition=text.xml
+--syntax-definition=text.xml \
+--pdf-engine=pdflatex
