@@ -18,4 +18,6 @@ echo -e "${BLUE}[*]${RESET} Starting report generation and packaging for ${OSID}
 ./generate-report.sh exam-report $EXAM_REPORT
 
 echo -e "${BLUE}[*]${RESET} Creating 7z package..."
-7z a $ZIP_PACKAGE -pOS-$OSID $EXAM_REPORT $LAB_REPORT
+7z a $ZIP_PACKAGE $EXAM_REPORT $LAB_REPORT
+md5sum $ZIP_PACKAGE > md5sum.txt
+cat ./md5sum.txt
