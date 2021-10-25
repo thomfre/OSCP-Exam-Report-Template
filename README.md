@@ -101,6 +101,10 @@ To make it even better, install Fira Code and Noto Color Emoji:
 }
 ```
 
+## Known issues
+
+MarkdownPP has [a bug that will break include statements inside C-code blocks](https://github.com/thomfre/OSCP-Exam-Report-Template/issues/6). This bug has been fixed in this fork: https://github.com/miguelangelnieto/markdown-pp
+
 ## Credits
 
 ### Based on  
